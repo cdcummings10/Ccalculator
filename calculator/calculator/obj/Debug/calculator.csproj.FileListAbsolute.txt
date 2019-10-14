@@ -1,0 +1,6 @@
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\Menalaus\Development\cf401\Ccalculator\calculator\calculator\obj\Debug\calculator.pdb
