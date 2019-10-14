@@ -12,9 +12,11 @@ namespace calculator
         {
             bool calcOn = true;
             Console.WriteLine("Welcome to this C# Calculator!");
+            // Will keep runnning calculator until exit is called in menu
             while (calcOn)
             {
                 DisplayMenu();
+                //Receiving user choice
                 string choice = Console.ReadLine();
             
                 if (choice == "1")
@@ -35,6 +37,7 @@ namespace calculator
                 }
                 else if (choice == "5") 
                     { 
+                    //Exit Loop
                     Console.WriteLine("Thanks for using the calculator!");
                     calcOn = false;
                     }
@@ -47,6 +50,18 @@ namespace calculator
 
             Console.ReadLine();
         }
+
+        private static void DisplayMenu()
+        {
+            Console.WriteLine("Choose your mathematical operation:");
+            Console.WriteLine("1) Addtion");
+            Console.WriteLine("2) Subtraction");
+            Console.WriteLine("3) Multiplication");
+            Console.WriteLine("4) Division");
+            Console.WriteLine("5) Exit");
+        }
+
+        //Receiving inputs
         private static decimal SaveFirstInput()
         {
             Console.WriteLine("Input First Number");
@@ -58,16 +73,7 @@ namespace calculator
             return Decimal.Parse(Console.ReadLine());
         }
 
-        private static void DisplayMenu ()
-        {
-            Console.WriteLine("Choose your mathematical operation:");
-            Console.WriteLine("1) Addtion");
-            Console.WriteLine("2) Subtraction");
-            Console.WriteLine("3) Multiplication");
-            Console.WriteLine("4) Division");
-            Console.WriteLine("5) Exit");
-        }
-
+        // Math operations
         private static decimal Addition(decimal input1, decimal input2)
         {
             return input1 + input2;
